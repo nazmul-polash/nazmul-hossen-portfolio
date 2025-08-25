@@ -9,7 +9,7 @@ export default function HeroImage() {
       <div className='absolute right-0 top-0 h-[550px] w-full overflow-hidden rounded-bl-full 
       rounded-br-full border-r-[10px] border-blue-500 bg-gray-700 md:h-[600px] md:w-[400px] '>
 
-         <AnimatedIcon Icon={FaReact } className="left-10 top-35" iconClassName="text-blue-500"/>   
+         <AnimatedIcon Icon={FaReact } className="left-10 top-35 animate-none" iconClassName="text-blue-500"/>   
          <AnimatedIcon Icon={RiTailwindCssFill  } className="right-10 top-35" iconClassName="text-blue-600"/>   
          <AnimatedIcon Icon={FaDatabase } className="left-10 bottom-35" iconClassName="text-blue-300"/>   
          <AnimatedIcon Icon={FaLaravel} className="right-10  bottom-35" iconClassName="text-red-500" />
