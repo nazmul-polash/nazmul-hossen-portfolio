@@ -14,21 +14,21 @@ const projects = [
     id: 2,
     title: "Project Two",
     description: "This is a brief description of Project Two.",
-    imageUrl: "https://via.placeholder.com/300",
+    imageUrl: "https://images.unsplash.com/photo-1569060368681-889a62a8f416?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVtb3xlbnwwfHwwfHx8MA%3D%3D",
     projectUrl: "#"
   },
   {
     id: 3,
     title: "Project Three",
     description: "This is a brief description of Project Three.",
-    imageUrl: "https://via.placeholder.com/300",
+    imageUrl: "https://images.unsplash.com/photo-1609911567691-049dc2b4d467?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVtb3xlbnwwfHwwfHx8MA%3D%3D",
     projectUrl: "#"
   },
   {
     id: 4,
     title: "Project Four",
     description: "This is a brief description of Project Four.",
-    imageUrl: "https://via.placeholder.com/300",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1683880730492-d4ece41e8617?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVtb3xlbnwwfHwwfHx8MA%3D%3D",
     projectUrl: "#"
   },
 ];
@@ -38,7 +38,7 @@ export default function Projects() {
         <SectionTitle title="My Projects" />
         <div className='container max-w-6xl mx-auto px-4 mt-10'>
            {/* projects  */}
-           <div>
+           <div className='space-y-6'>
               {projects.map((project, index) => (
                  <ProjectCard key={index} project={project} index={index} />
               ))}

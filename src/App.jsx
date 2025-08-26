@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { Outlet } from 'react-router'
 import Projects from './pages/projects/Projects'
+import Tape from './pages/tape/Tape'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main className="min-h-screen">
         <Outlet />
       </main>
+      <Tape />
       <Projects />
       <Footer />
     </>
