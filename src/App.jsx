@@ -9,7 +9,7 @@ import Tape from './pages/tape/Tape'
 function App() {
   return (
     <>
-      <Navbar />
+    <Navbar />
       <main className="min-h-screen">
         <Outlet />
       </main>
