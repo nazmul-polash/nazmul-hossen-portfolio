@@ -12,7 +12,7 @@ export default function Tape() {
                     <React.Fragment key={index}>
                        {
                           words.map((word) => (
-                             <div className="flex items-center gap-2">
+                             <div className="flex items-center gap-2" key={word}>
                                 <span>{word }</span>
                                 <FaMeta className='text-2xl'/>
                             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HeroContent() {
    return (
-      <div className="hero h-4/10">
+      <div className="hero h-4/10 ">
          <div className="hero-content flex-col lg:flex-row-reverse">
             <div>
                <h1 className="text-5xl font-bold">Nazmul Hossen</h1>
